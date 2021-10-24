@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="validations.css">
+    <script src="validations.js"></script>
+</head>
+
+<body >
+    <center>
+        <h1>Alok Salian Registration Page using HTML,CSS,JavaScript!!</h1>
+    </center>
+    <hr>
+    <form method="" action="" name="reg_form" onsubmit="return validate()">
+        <h2>Registration Form</h2>
+        <table>
+            <tr>
+                <td><label>Username: </label></td>
+                <td>
+                    <input type="text" name="uname" placeholder="Username" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Password: </label></td>
+                <td>
+                    <input type="textarea" id=password size="50" name="pname" placeholder="Password" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Email: </label></td>
+                <td>
+                    <input type="text1" id="email" placeholder="Email" name="Email" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Birth Date: </label></td>
+                <td>
+                    <input type="date" id="start" name="trip-start" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label>City: </label></td>
+                <td>
+                    <select name="city" id="City">
+                        <option value="select city">Select City </option>
+                        <option value="HTML">DOMBIVLI</option>
+                        <option value="CSS">THANE</option>
+                        <option value="JavaScript">KALYAN</option>
+                        <option value="Java">MUMBAI</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Programming Languages: </label></td>
+                <td>
+                    <input type="checkbox" id="language1" name="language1" value="C">
+                    <label for="lan1"> C</label><br>
+                    <input type="checkbox" id="language2" name="language2" value="C++">
+                    <label for="lan2"> C++</label><br>
+                    <input type="checkbox" id="language3" name="language3" value="Java">
+                    <label for="lan3"> Java</label><br>
+                    <input type="checkbox" id="language4" name="language4" value="JavaScript">
+                    <label for="lan4"> JavaScript</label><br>
+                    <input type="checkbox" id="language5" name="language5" value="JavaScript">
+                    <label for="lan5"> Python</label><br><br>      
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="submit" value="Submit" id="sub">
+                    <input type="reset" name="reset" value="Reset" id="res">   
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
