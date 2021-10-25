@@ -1,5 +1,4 @@
-
-    body{ 
+body{ 
         background-image: url('background3.jpg');
         font-family: 'Times New Roman', Times, serif;  
     }  
@@ -7,7 +6,7 @@
         color:blue;
         width: 250px;  
     } 
-    input[type="textarea"] { 
+    input[type="password"] { 
         color:blue;
         width: 250px;  
     } 
@@ -15,7 +14,7 @@
         color:blue;
         width: 250px;  
     } 
-    input[type="submit"], input[type="reset"] {  
+    input[type="button"], input[type="reset"] {  
         width: 77px;  
         height: 27px;  
         position: relative;left: 180px;
@@ -61,3 +60,4 @@
      color:blue;
     }
     
+   
