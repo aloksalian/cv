@@ -1,4 +1,3 @@
-
 function validate() {
     var uname = document.reg_form.uname;
     var inputtxt = document.getElementById("password").value;
@@ -6,10 +5,14 @@ function validate() {
     var mydropdown = document.getElementById("City").value;
     
     var pname = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{0,8}$/;
-    if (uname.value.length <= 0) {
+    if(uname.length==0 || myemail.length==0 || inputtxt.length==0 || mydropdown.length==0){
+        alert("Please Fill All The Fields")   
+    }
+    else if (uname.value.length <= 0) {
         alert("Username is required");
         return false;
     }
+
     else if (uname.value.length >= 20) {
         alert("Max length of username should not excede 20 characters");
         uname.focus();
